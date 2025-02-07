@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in PHP related to type juggling.  The `calculateSum` function intends to sum numerical values. However, due to PHP's loose typing, the inclusion of a string ('4a') in the input array leads to unexpected behavior. The solution shows how strict type checking or explicit type conversion can prevent this issue.
